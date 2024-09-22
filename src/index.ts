@@ -46,8 +46,8 @@ async function prepareGameWorld() {
     createCamera();
     await createPlayer();
     const terrainBlockSpriteSource = await loadTerrainBlockSprite();
-    for (let x = 0; x < 100; x++) {
-        for (let y = 0; y < 100; y++) {
+    for (let x = -50; x < 50; x++) {
+        for (let y = -50; y < 50; y++) {
             const block = new GameObject();
             const isUnderground = y > 0;
             const cropY = isUnderground ? 64 : 32;
