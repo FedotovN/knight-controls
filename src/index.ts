@@ -9,7 +9,7 @@ import {
     SquareMesh
 } from "kneekeetah-game-engine";
 import {HEIGHT, TERRAIN_HEIGHT, WIDTH} from "./const/dimensions.const";
-import { SPRITE_DIMENSIONS } from "./const/animation_names.const";
+import "../public/style.css"
 import Player from "./models/Player";
 let camera: Camera;
 function createCamera() {
